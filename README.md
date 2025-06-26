@@ -23,9 +23,7 @@ Leia atentamente este README pois ele irá te ajudar a compreender as premissas 
 - Precisa ter uma boa relação tamanho x qualidade
 - Você deve utilizar jobs com o BullMQ
 - Você pode utilizar bibliotecas externas se preferir, mas você não precisa delas para concluir este teste
-
-# Requisitos
-- Você irá precisar de um banco de dados [Redis](https://redis.io/), podendo cria-lo utilizando o [Docker](https://www.docker.com) (caso haja alguma dúvida, entre em contato conosco)
+- Banco de dados [Redis](https://redis.io/)
 - Node.js v22.14.0
 - NPM v10.9.2
   
@@ -39,10 +37,11 @@ Leia atentamente este README pois ele irá te ajudar a compreender as premissas 
 - Organização do reposiório
 - Qualidade das funcionalidades
 - Performance e tempo das funcionalidades
-- Uso correto do (Typescript)[https://www.typescriptlang.org/docs/handbook/2/everyday-types.html]
+- Uso correto do [Typescript](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
 
 # Considerações
 - Você pode utilizar IA, como o cursor ou github copilot, porém não recomendamos que você gere todo o código utilizando a IA pois estamos avaliando os **seu** código e não da IA
+- Você irá precisar de um banco de dados [Redis](https://redis.io/), podendo cria-lo utilizando o [Docker](https://www.docker.com) (caso haja alguma dúvida, entre em contato conosco)
 - É fundamental que você leia a documentação do [Adonisjs](https://adonisjs.com/), [BullMQ](https://bullmq.io/) e [fluent-ffmpeg](https://www.npmjs.com/package/fluent-ffmpeg) para realizar a implementação adequada de suas funcionalidades
 - Pergunte! Se você tiver dúvidas, não tenha medo de perguntar. Dúvidas são sempre bem vidas, elas que nos tornam melhores.
 
