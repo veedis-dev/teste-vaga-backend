@@ -13,6 +13,28 @@ Leia atentamente este README pois ele irá te ajudar a compreender as premissas 
 - app/tmp: Pasta aonde os vídeos convertidos deverão ser enviados
 - start/teste/workers.ts: Worker que implementa toda a lógica de conversão e armazenamento dos vídeos
 
+# Inicialização
+### Criação do projeto
+```
+git clone https://github.com/veedis-dev/teste-vaga-backend.git
+cd teste-vaga-backend
+npm install
+```
+### Deployment
+```
+npm run build
+cd build
+cp ../.env .env
+npm ci --omit='dev'
+node bin/server.js
+```
+
+# O que fazer quando finalizar?
+- Faça o `Deployment`
+- Exclua a pasta *`node_modules`*
+- Comprima o arquivo em .zip
+- Envie para nós
+
 # Recursos
 - Amostras de vídeos para serem testados: [link](https://drive.google.com/drive/folders/1qzlNjN6k2Cdq2YbOiImWyK64-pDGo9n0?usp=drive_link)
 -  - As amostrar estão dentro da pasta `input`
